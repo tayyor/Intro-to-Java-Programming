@@ -24,8 +24,8 @@ public class Exercise_03_28 {
 		double r2Height = input.nextDouble();
 
 		// Determine whether the second rectangle is inside the first
-		if	((Math.pow(Math.pow(r2y - r1y, 2), .05) + r2Height / 2 <= r1Height / 2) && 
-			(Math.pow(Math.pow(r2x - r1x, 2), .05) + r2Width / 2 <= r1Width / 2) &&
+		if	((Math.pow(Math.pow(r2y - r1y, 2), .5) + r2Height / 2 <= r1Height / 2) && 
+			(Math.pow(Math.pow(r2x - r1x, 2), .5) + r2Width / 2 <= r1Width / 2) &&
 			(r1Height / 2 + r2Height / 2 <= r1Height) &&
 			(r1Width / 2 + r2Width / 2 <= r1Width))
 			System.out.println("r2 is inside r1");
